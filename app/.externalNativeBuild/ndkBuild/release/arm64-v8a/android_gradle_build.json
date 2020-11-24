@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk",
+    "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\y00312039\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "hiaijni-release-arm64-v8a": {
+      "buildCommand": "D:\\y00312039\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libhiaijni.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "hiaijni",
+      "files": [
+        {
+          "src": "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\buildmodel.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/y00312039/SDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -ID:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\classify_async_jni.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/y00312039/SDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -ID:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\classify_sync_jni.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/y00312039/SDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/y00312039/SDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -ID:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        }
+      ],
+      "output": "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libhiaijni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "D:\\y00312039\\SDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

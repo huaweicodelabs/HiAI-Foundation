@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk",
+    "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\y00312039\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "hiaijni-debug-arm64-v8a": {
+      "artifactName": "hiaijni",
+      "buildCommand": "D:\\y00312039\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/y00278793/03_hiai_foundation/DDK/hwhiai-ddk-100.320.030.292/hwhiai-ddk-100.320.030.292/sample/inference_npu_demo/Demo_Soure_Code/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libhiaijni.so",
+      "abi": "arm64-v8a",
+      "output": "D:\\y00278793\\03_hiai_foundation\\DDK\\hwhiai-ddk-100.320.030.292\\hwhiai-ddk-100.320.030.292\\sample\\inference_npu_demo\\Demo_Soure_Code\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libhiaijni.so"
+    }
+  }
+}
