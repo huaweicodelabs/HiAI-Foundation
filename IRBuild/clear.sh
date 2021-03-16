@@ -1,0 +1,1 @@
+adb shell rm -fr /data/tmp/local/*
