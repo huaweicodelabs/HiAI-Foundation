@@ -36,7 +36,7 @@ std::shared_ptr<AippTensor> HIAI_CreateAiPPTensorFromHandle(
 ```
     // 模拟用户直接拿到buffer_handle_t
     buffer_handle_t handle = nullptr;
-    get_ion_handle::InitBufferHandleForDouYin(handle, test.inputH, test.inputW);
+    get_ion_handle::InitBufferHandle(handle, test.inputH, test.inputW);
     CHECK_NULL(handle);
 
     // 往ION内存中写测试数据, 实际用户拿到的是有图像数据的。
