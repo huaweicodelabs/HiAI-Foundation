@@ -45,7 +45,7 @@ std::shared_ptr<AippTensor> HIAI_CreateAiPPTensorFromHandle(
         ionMemAddr[i] = i % 256;
     }
 ```
-  * (2). 创建AippDtcPara参数，用于对输入图像数据进行归一化使用，参数已经配置好，单通道，从0~255归一化到0~1，均值0（不减均值）
+  * (2). 创建AippDtcPara参数，用于对输入图像数据进行归一化使用，参数已经配置好，单通道，从0\~255归一化到0\~1，均值0（不减均值）
 ```
 // TODO ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 创建带ION的AIPP参数，并自动设置Crop和DTC（归一化到0~1） ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     void GetNormalizeAippDtcPara(hiai::AippDtcPara& para)
